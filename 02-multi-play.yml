@@ -9,7 +9,7 @@
       state: directory
 
 - name: create directory
-    file:
+  file:
       path: /home/ec2-user/new-dir_1
       state: directory
 
@@ -23,7 +23,7 @@
       state: directory
 
 - name: create directory
-    file:
+  file:
       path: /home/ec2-user/new-dir_2
       state: directory
 
@@ -37,7 +37,7 @@
       state: directory
 
 - name: create directory
-    file:
+  file:
       path: /home/ec2-user/new-dir_group2
       state: directory     
 ...      
