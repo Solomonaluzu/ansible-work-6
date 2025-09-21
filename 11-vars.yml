@@ -2,8 +2,8 @@
 - name: Variable Demo
   hosts: g1
   become: yes
-  var:
-  myusername: Solomon
+  vars:
+    myusername: Solomon
  
   tasks:
   - name: Update dynamic page
